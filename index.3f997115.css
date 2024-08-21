@@ -1,0 +1,16 @@
+.people {
+  grid-template-columns: repeat(2, 200px);
+  display: grid;
+}
+
+@media (width >= 1000px) {
+  .people {
+    grid-template-columns: repeat(4, 200px);
+  }
+}
+
+.person__photo {
+  width: 200px;
+  height: 200px;
+}
+/*# sourceMappingURL=index.3f997115.css.map */
